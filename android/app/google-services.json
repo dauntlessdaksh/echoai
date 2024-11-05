@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "375316481035",
+    "project_id": "taskbackend-9b227",
+    "storage_bucket": "taskbackend-9b227.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375316481035:android:7ee7b8fef421eb5713f30e",
+        "android_client_info": {
+          "package_name": "com.example.echoai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrbwAtN8vJnBE-ks13eHOBdOTwLfGjwr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
