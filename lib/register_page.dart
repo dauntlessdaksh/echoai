@@ -228,7 +228,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   onPressed: () async {
                     final GoogleSignIn googleSignIn = GoogleSignIn();
                     try {
-                      await googleSignIn.signOut(); // Ensure user is signed out to prompt account selection
+                      await googleSignIn.signOut(); 
                       final GoogleSignInAccount? googleSignInAccount =
                           await googleSignIn.signIn();
 
@@ -242,8 +242,6 @@ class _RegisterPageState extends State<RegisterPage> {
                                 accessToken: googleSignInAuth.accessToken);
 
                         await _firebaseAuth.signInWithCredential(credential);
-
-                        // Navigate to ChatApp after successful sign-in
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(builder: (context) => ChatApp()),
